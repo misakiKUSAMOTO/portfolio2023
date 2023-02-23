@@ -12,14 +12,13 @@
 	height:auto;
 }
 
-.fukui {
+.abc {
 	background:url('fukui.jpg');
 }
-.fukui:hover{
+.abc:hover{
 	background:url('fukui_hover.jpg');
   }
   
-
 
 
 
