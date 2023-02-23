@@ -11,12 +11,14 @@
     width:280px;
 	height:auto;
 }
-
-.item .fukui {
-	background-image: url("fukui_hover.jpg");
-}
-
 .ease_out:hover {
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 
