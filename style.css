@@ -5,12 +5,27 @@
     align-items: center;
 }
 .item {
-    margin: 15px;
+	margin: 15px;
+	position:relative;
 }
 .item img {
     width:280px;
 	height:auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	display: block;
+	transition: 0.7s;
 }
+.item:hover img:nth-of-type(2) {
+	opacity: 0;
+  }
+  
+
+
 @media screen and (min-width: 1001px){
 	.item:nth-child(4n+1) {
 		margin-left: 0;
