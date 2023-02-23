@@ -1,0 +1,25 @@
+.box {
+	display: flex;
+	flex-wrap: wrap;
+}
+.item {
+	margin-left: 20px;
+}
+@media screen and (min-width: 1001px){
+	.item:nth-child(4n+1) {
+		margin-left: 0;
+	}
+}
+@media screen and (min-width: 751px){
+	.item:nth-child(3n+1) {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 750px){
+	.box {
+		justify-content: space-between;
+	}
+	.item {
+		margin-left: 0;
+	}
+}
