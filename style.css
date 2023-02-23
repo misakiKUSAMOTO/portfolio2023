@@ -8,6 +8,7 @@
     margin-left: 30px;
     margin-bottom: 30px;
     width:280px;
+    height:auto;
 }
 @media screen and (min-width: 1001px){
 	.item:nth-child(4n+1) {
