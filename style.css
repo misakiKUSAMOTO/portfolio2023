@@ -2,22 +2,15 @@
 	display: flex;
     flex-wrap: wrap;
     justify-content: center;
-	align-items: center;
-	max-width: 800px;
-	width: 100%;
+    align-items: center;
 }
 .item {
-	margin: 15px;
+    margin: 15px;
 }
 .item img {
-	width:100%;
+    width:280px;
 	height:auto;
 }
-
-
-
-
-
 @media screen and (min-width: 1001px){
 	.item:nth-child(4n+1) {
 		margin-left: 0;
