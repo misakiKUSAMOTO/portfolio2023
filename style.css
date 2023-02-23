@@ -5,29 +5,18 @@
     align-items: center;
 }
 .item {
-	margin: 15px;
-	position: relative;
-	margin: 0 auto;
-	border-radius: 12px;
-	overflow: hidden;
-	cursor: pointer;
+    margin: 15px;
 }
 .item img {
     width:280px;
 	height:auto;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	width: 100%;
-	display: block;
-	-webkit-transition: .4s ease-in-out;
-	transition: .4s ease-in-out;
 }
-.item:hover img:nth-of-type(2) {
-	opacity: 0;
-}
+
+
+
+
+
+
 
 
 
