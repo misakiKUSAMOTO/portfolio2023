@@ -9,7 +9,16 @@
 }
 .item img {
     width:280px;
-    height:auto;
+	height:auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	display: block;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
 }
 @media screen and (min-width: 1001px){
 	.item:nth-child(4n+1) {
