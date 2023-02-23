@@ -13,10 +13,10 @@
 }
 
 .abc {
-	background:url('fukui.jpg');
+	background-image:url('fukui.jpg');
 }
 .abc:hover{
-	background:url('fukui_hover.jpg');
+	background-image:url('fukui_hover.jpg');
   }
   
 
