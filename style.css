@@ -7,6 +7,10 @@
 .item {
     margin: 15px;
 }
+.item img {
+    width:280px;
+	height:auto;
+}
 .ease_out:hover {
     opacity: 0;
     -moz-opacity: 0;
