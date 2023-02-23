@@ -12,6 +12,10 @@
 	height:auto;
 }
 
+.item .fukui {
+	background-image: url("fukui_hover.jpg");
+}
+
 .hover {
     opacity: 0;
     -moz-opacity: 0;
