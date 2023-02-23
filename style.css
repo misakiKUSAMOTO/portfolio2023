@@ -3,8 +3,8 @@
 	flex-wrap: wrap;
 }
 .item {
-    margin-left: 20px;
-    width:200px;
+    margin-left: 30px;
+    width:280px;
 }
 @media screen and (min-width: 1001px){
 	.item:nth-child(4n+1) {
