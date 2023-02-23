@@ -16,6 +16,11 @@
 	  /* 幅8px、高さ8pxで背景画像のサイズを指定 */
 	  background-size: 8px 8px;
 }
+.item-title {
+    font-size: 12px;
+	padding: 5px 8px 0px 8px;
+    line-height: normal;
+}
 
 .item img {
     width:280px;
