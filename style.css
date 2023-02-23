@@ -10,19 +10,10 @@
 	margin: 15px;
 }
 .item img {
-	max-width:100%;
+	width:100%;
 	height:auto;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	width: 100%;
-	display: block;
-	transition: 0.7s;
 }
-.item:hover img:nth-of-type(2) {
-	opacity: 0;
-  }
+
 
 
 
