@@ -19,8 +19,13 @@
 .item-title {
     font-size: 12px;
 	padding: 5px 8px 0px 8px;
-	background-color: ;
-    line-height: normal;
+	line-height: normal;
+	display: block;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	}
 }
 
 .item img {
