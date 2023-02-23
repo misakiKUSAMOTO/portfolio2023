@@ -2,13 +2,15 @@
 	display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+	align-items: center;
+	max-width: 800px;
+	width: 100%;
 }
 .item {
 	margin: 15px;
 }
 .item img {
-    width:280px;
+	max-width:100%;
 	height:auto;
 	top: 50%;
 	left: 50%;
@@ -21,7 +23,8 @@
 .item:hover img:nth-of-type(2) {
 	opacity: 0;
   }
-  
+
+
 
 
 @media screen and (min-width: 1001px){
