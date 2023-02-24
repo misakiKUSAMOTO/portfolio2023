@@ -37,6 +37,8 @@
 .item img {
     width:280px;
 	height:auto;
+}
+.ease_out {
 	z-index: 100;
 }
 .ease_out:hover {
