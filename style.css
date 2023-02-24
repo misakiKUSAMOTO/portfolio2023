@@ -16,6 +16,7 @@
 	);
 	/* 幅8px、高さ8pxで背景画像のサイズを指定 */
 	background-size: 8px 8px;
+	position:relative;
 }
 .item-title {
     font-size: 12px;
@@ -27,12 +28,15 @@
 	font-family: 'Montserrat', sans-serif;
 	word-wrap: break-word;
 	vertical-align: baseline;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 .item img {
     width:280px;
 	height:auto;
-	background-image: linear-gradient( -45deg, #fff 25%, #eee 25%, #eee 50%, #fff 50%, #fff 75%, #eee 75%, #eee );
-	background-size: 8px 8px;
+	z-index: 100;
 }
 .ease_out:hover {
     opacity: 0;
