@@ -5,6 +5,9 @@ main {
 	word-wrap: break-word;
 	padding-top:70px;
 }
+h2 {
+	margin: 0;
+}
 .box {
 	display: flex;
     flex-wrap: wrap;
