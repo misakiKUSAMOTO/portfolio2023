@@ -16,6 +16,7 @@
 	);
 	/* 幅8px、高さ8pxで背景画像のサイズを指定 */
 	background-size: 8px 8px;
+	position:relative;
 }
 .item-title {
     font-size: 12px;
@@ -31,6 +32,7 @@
 .item img {
     width:280px;
 	height:auto;
+	position:absolute;
 }
 .ease_out:hover {
     opacity: 0;
