@@ -65,6 +65,7 @@ h2 {
 p {
 	font-size:14px;
 	color: #777;
+	padding-bottom:30px;
 }
 
 @media screen and (min-width: 1001px){
