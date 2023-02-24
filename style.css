@@ -16,6 +16,10 @@
 	);
 	/* 幅8px、高さ8pxで背景画像のサイズを指定 */
 	background-size: 8px 8px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 .item-title {
     font-size: 12px;
@@ -27,6 +31,7 @@
 	font-family: 'Montserrat', sans-serif;
 	word-wrap: break-word;
 	vertical-align: baseline;
+	position:relative;
 }
 .item img {
     width:280px;
