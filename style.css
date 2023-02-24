@@ -28,6 +28,17 @@
 	word-wrap: break-word;
 	vertical-align: baseline;
 }
+	.item-title:hover {
+		opacity: 0;
+		-moz-opacity: 0;
+		filter: alpha(opacity=0);
+		-ms-transition: all 0.3s ease-in;
+		-moz-transition: all 0.3s ease-in;
+		-webkit-transition: all 0.3s ease-in;
+		-o-transition: all 0.3s ease-in;
+		transition: all 0.3s ease-in;
+	}
+
 .item img {
     width:280px;
 	height:auto;
