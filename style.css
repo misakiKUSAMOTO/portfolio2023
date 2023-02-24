@@ -44,11 +44,7 @@
 }
 p {
 	margin-bottom: 20px;
-	display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-	margin-inline-end: 0px;
+	font-size:10px;
 	color: #777;
 }
 
