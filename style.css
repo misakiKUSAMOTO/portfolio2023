@@ -54,6 +54,18 @@ p {
 	font-size:14px;
 	color: #777;
 }
+a:before {
+    line-height: 24px;
+    margin-right: 5px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    font-family: 'Genericons';
+    vertical-align: top;
+}
 
 @media screen and (min-width: 1001px){
 	.item:nth-child(4n+1) {
