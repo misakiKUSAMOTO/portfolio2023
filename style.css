@@ -46,8 +46,9 @@ h2 {
 	width: 100%;
 	height:auto;
 }
-.entery-content:hover {
-	opacity: 0.5 ;
+.entery-content img:hover{
+	opacity: 0.5;
+	transition: 0.3s;
 }
 .date{
     padding-bottom: 2px;
