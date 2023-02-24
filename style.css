@@ -27,6 +27,14 @@
 	font-family: 'Montserrat', sans-serif;
 	word-wrap: break-word;
 	vertical-align: baseline;
+	border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
 }
 .item img {
     width:280px;
