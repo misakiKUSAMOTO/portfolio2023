@@ -27,10 +27,12 @@
 	font-family: 'Montserrat', sans-serif;
 	word-wrap: break-word;
 	vertical-align: baseline;
+	position:relative;
 }
 .item img {
     width:280px;
 	height:auto;
+	position:absolute;
 }
 .ease_out:hover {
     opacity: 0;
