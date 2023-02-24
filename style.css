@@ -42,7 +42,7 @@ h2 {
 	font-weight: 500;
 }
 .entry-content img{
-	text-align: center;
+	display:inline-block;
 	width: 80%;
 	height:auto;
 }
