@@ -47,7 +47,8 @@ h2 {
 	height:auto;
 }
 .entry-content .catalog img{
-	width: 50%;
+	width: 100px;
+	height:auto;
 }
 .entry-content a:hover{
 	opacity: 0.5;
