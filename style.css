@@ -42,6 +42,15 @@
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
+p {
+	margin-bottom: 20px;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	color: #777;
+}
 
 @media screen and (min-width: 1001px){
 	.item:nth-child(4n+1) {
