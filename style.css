@@ -32,6 +32,8 @@
 .item img {
     width:280px;
 	height:auto;
+}
+.ease_out {
 	position:absolute;
 }
 .ease_out:hover {
