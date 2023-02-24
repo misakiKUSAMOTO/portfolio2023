@@ -1,7 +1,8 @@
 main {
 	margin:30px;
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 150%;
+	line-height: 150%;
+	width:800px;
     word-wrap: break-word;
 }
 .box {
