@@ -41,8 +41,10 @@ h2 {
 .entry-title {
 	font-weight: 500;
 }
-.entery-content {
+.entery-content img{
 	text-align: center;
+	width: 80%;
+	height:auto;
 }
 .date{
     padding-bottom: 2px;
