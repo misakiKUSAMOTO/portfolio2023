@@ -4,7 +4,7 @@ main {
 	line-height: 150%;
 	width:800px;
 	word-wrap: break-word;
-	padding-top:100px;
+	padding-top:70px;
 }
 .box {
 	display: flex;
@@ -35,6 +35,16 @@ main {
 	font-family: 'Montserrat', sans-serif;
 	word-wrap: break-word;
 	vertical-align: baseline;
+}
+.entry-title {
+	font-weight: 500;
+}
+.date a {
+    padding-bottom: 2px;
+    margin-left: 0px;
+    margin-bottom: 2px;
+    display: inline-block;
+    font-size: 12px;
 }
 .item img {
     width:280px;
