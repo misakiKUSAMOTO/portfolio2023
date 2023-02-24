@@ -19,16 +19,6 @@
 	border: 0px solid #eee;
 	padding: 5%;
 	margin-bottom: 0;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 100%;
-	overflow: auto;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	display: -webkit-flex;
-	display: flex;
 	-webkit-align-items: center;
 	align-items: center;
 	-webkit-justify-content: center;
