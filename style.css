@@ -38,11 +38,10 @@ main {
 .entry-title {
 	font-weight: 500;
 }
-.date a {
+.date{
     padding-bottom: 2px;
     margin-left: 0px;
     margin-bottom: 2px;
-    display: inline-block;
     font-size: 10px;
 }
 .item img {
