@@ -25,7 +25,6 @@ h2 {
 		#eee 75%, #eee
 	);
 	/* 幅8px、高さ8pxで背景画像のサイズを指定 */
-	background-size: 8px 8px;
 }
 .item-title {
     font-size: 12px;
