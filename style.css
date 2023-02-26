@@ -43,7 +43,7 @@ h2 {
 }
 .hover_mask{
 	align-items: center; /* テキストの中央揃え */
-	background: rgba(50, 50, 50, .65); /* マスクの色*/
+	background: rgba(30, 30, 30, .65); /* マスクの色*/
 	bottom: 0;
 	color: #fff;
 	display: flex; /* テキストの中央揃え */
