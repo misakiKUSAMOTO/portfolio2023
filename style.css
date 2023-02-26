@@ -14,22 +14,6 @@ h2 {
     justify-content: center;
     align-items: center;
 }
-.item {
-	margin: 15px;
-	width:280px;
-	position: relative;
-}
-.item-title {
-    font-size: 12px;
-	padding: 5px 8px 0px 8px;
-	color: #333;
-	line-height: normal;
-	font-weight: 500;
-	text-transform: none;
-	font-family: 'Montserrat', sans-serif;
-	word-wrap: break-word;
-	vertical-align: baseline;
-}
 .entry-title {
 	font-weight: 500;
 }
@@ -46,6 +30,12 @@ h2 {
     margin-bottom: 5px;
 	font-size: 12px;
 	color:#333;
+}
+.item {
+	margin: 15px;
+	width:280px;
+	position: relative;
+	cursor: pointer;
 }
 .item img{
     width:280px;
@@ -67,9 +57,9 @@ h2 {
 	transition: opacity .6s ease; /* ゆっくりopacityのみへ変化させる */
 	width: 100%;
   }
-.hover_mask :hover {
-	opacity: 1; /* hoverしたら透過しない(表示させる) */
-}
+/* .hover_mask :hover {
+	opacity: 1; hoverしたら透過しない(表示させる)
+} */
 .hover_mask p{
 	width:80%;
 }
