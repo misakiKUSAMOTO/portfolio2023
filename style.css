@@ -24,7 +24,7 @@ h4 {
 .entry-title {
 	font-weight: 500;
 }
-.entry-content img{
+.entry-content{
 	text-align: center;
 }
 .entry-content a:hover{
@@ -47,9 +47,6 @@ h4 {
 .item img{
     width:280px;
 	height:auto;
-}
-.image-center {
-	text-align:center;
 }
 .hover_mask{
 	align-items: center; /* テキストの中央揃え */
