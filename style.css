@@ -17,14 +17,6 @@ h2 {
 .item {
 	margin: 15px;
 	width:280px;
-	background-image: linear-gradient(
-		-45deg,
-		#fff 25%,
-		#eee 25%, #eee 50%,
-		#fff 50%, #fff 75%,
-		#eee 75%, #eee
-	);
-	/* 幅8px、高さ8pxで背景画像のサイズを指定 */
 }
 .item-title {
     font-size: 12px;
