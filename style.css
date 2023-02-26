@@ -50,17 +50,29 @@ h2 {
     width:280px;
 	height:auto;
 }
-.ease_out:hover {
-    opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    -ms-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+.hover-mask {
+	align-items: center; /* テキストの中央揃え */
+	background: rgba(255, 255, 255, .5); /* マスクの色(黒の50%) */
+	bottom: 0;
+	color: #777; /* テキストの色 */
+	display: flex; /* テキストの中央揃え */
+	height: auto;
+	justify-content: center; /* テキストの中央揃え */
+	left: 0;
+	opacity: 0; /* 最初は透明(非表示) */
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: opacity .6s ease; /* ゆっくりopacityのみへ変化させる */
+	width: 100%;
+  }
+.hover_mask :hover {
+	opacity: 1; /* hoverしたら透過しない(表示させる) */
 }
-p {
+.hover_mask p{
+	width:80%;
+}
+.entry-content p {
 	font-size:14px;
 	color: #777;
 	padding-bottom:30px;
