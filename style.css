@@ -46,6 +46,10 @@ h2 {
 	width: 100%;
 	height:auto;
 }
+.entry-content .catalog img{
+	width: 500px;
+	height:auto;
+}
 .entry-content a:hover{
 	opacity: 0.5;
 	transition: 0.3s;
