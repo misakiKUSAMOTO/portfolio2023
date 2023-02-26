@@ -41,12 +41,14 @@ h2 {
 .entry-title {
 	font-weight: 500;
 }
-.entry-content{
+.entry-content img{
 	margin: 0 auto;
+	width: 100%;
+	height:auto;
 }
 .entry-content .catalog img{
-	width: 500px;
-	height:auto;
+	width: 50%;
+	height;auto;
 }
 .entry-content a:hover{
 	opacity: 0.5;
