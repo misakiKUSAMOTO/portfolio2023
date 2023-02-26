@@ -57,9 +57,9 @@ h2 {
 	transition: opacity .6s ease; /* ゆっくりopacityのみへ変化させる */
 	width: 100%;
   }
-/* .hover_mask :hover {
-	opacity: 1; hoverしたら透過しない(表示させる)
-} */
+.hover_mask :hover {
+	 opacity: 1; /*hoverしたら透過しない(表示させる) */
+}
 .hover_mask p{
 	width:80%;
 }
