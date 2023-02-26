@@ -41,13 +41,9 @@ h2 {
 .entry-title {
 	font-weight: 500;
 }
-.entry-content img{
+.entry-content{
 	margin: 0 auto;
-	width: 100%;
-	height:auto;
-}
-.entry-content .catalog img{
-	width: 500px;
+	width: 70%;
 	height:auto;
 }
 .entry-content a:hover{
