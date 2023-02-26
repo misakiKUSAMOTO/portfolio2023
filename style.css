@@ -51,11 +51,11 @@ h2 {
     width:280px;
 	height:auto;
 }
-.hover-mask {
+.hover_mask {
 	align-items: center; /* テキストの中央揃え */
-	background: rgba(255, 255, 255, .5); /* マスクの色(黒の50%) */
+	background: rgba(255, 255, 255, .5); /* マスクの色*/
 	bottom: 0;
-	color: #777; /* テキストの色 */
+	color: #777;
 	display: flex; /* テキストの中央揃え */
 	height: auto;
 	justify-content: center; /* テキストの中央揃え */
