@@ -76,6 +76,11 @@ h4 {
 }
 .entry-note{
 	font-size:14px;
+	color: #232323;
+	padding-bottom:30px;
+}
+.entry-concept .entry-term .entry-skill {
+	font-size:14px;
 	color: #777;
 	padding-bottom:30px;
 }
