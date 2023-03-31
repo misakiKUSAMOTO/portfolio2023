@@ -74,12 +74,12 @@ h4 {
 	opacity: 0.5;
 	transition: 0.3s;
 }
-.entry-note{
+.entry-concept{
 	font-size:14px;
 	color: #232323;
 	padding-bottom:30px;
 }
-.entry-more,.entry-term,.entry-skill{
+.entry-term,.entry-skill,.entry-note{
 	font-size:14px;
 	color: #777;
 }
