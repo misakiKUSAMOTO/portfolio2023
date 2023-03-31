@@ -79,10 +79,9 @@ h4 {
 	color: #232323;
 	padding-bottom:30px;
 }
-.entry-concept,.entry-term,.entry-skill{
+.entry-more,.entry-term,.entry-skill{
 	font-size:14px;
 	color: #777;
-	padding-bottom:30px;
 }
 
 @media screen and (min-width: 1001px){
